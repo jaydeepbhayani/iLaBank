@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "375715538198",
+    "project_id": "ilabank-5f965",
+    "storage_bucket": "ilabank-5f965.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375715538198:android:54d38d3ed9898a7d4c9c37",
+        "android_client_info": {
+          "package_name": "com.jaydeepbhayani.ilabank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "375715538198-ti8s8ehr3bittmt7mv1ah3qv6ckregpp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9KlOI8Kaw_DIyHXFEpv4seVjcTe8Unwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "375715538198-ti8s8ehr3bittmt7mv1ah3qv6ckregpp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
