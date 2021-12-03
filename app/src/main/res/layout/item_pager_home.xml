@@ -4,7 +4,10 @@
     android:id="@+id/cardview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="@dimen/dp16"
+    android:layout_marginTop="@dimen/dp16"
+    android:layout_marginStart="@dimen/dp16"
+    android:layout_marginEnd="@dimen/dp16"
+    android:layout_marginBottom="@dimen/dp10"
     app:cardCornerRadius="8dp"
     android:background="@drawable/gradient_photo_covor">
 

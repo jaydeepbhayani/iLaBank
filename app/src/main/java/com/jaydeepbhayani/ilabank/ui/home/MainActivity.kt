@@ -129,9 +129,13 @@ class MainActivity : BaseActivity() {
         InternetCheck { internet ->
             if (internet) {
                 viewModel.refreshHomePagerData()
+                llSearch.visibility = View.VISIBLE
                 errorLayout.visibility = View.GONE
             } else {
                 progress.visibility = View.GONE
+                llSearch.visibility = View.GONE
+                appBarLayout.setExpanded(false)
+                errorLayout.visibility = View.VISIBLE
                 showSnackBar(container, "Please connect with internet...", "OK")
                 
             }

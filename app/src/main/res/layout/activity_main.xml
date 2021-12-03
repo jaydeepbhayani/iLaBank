@@ -45,6 +45,7 @@
                     app:tabIndicatorHeight="0dp" />
 
                 <LinearLayout
+                    android:id="@+id/llSearch"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/colorGreen"
@@ -73,7 +74,9 @@
             <androidx.appcompat.widget.Toolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
-                android:layout_height="66dp" />
+                android:layout_height="66dp"
+                android:minHeight="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
 
         </com.google.android.material.appbar.CollapsingToolbarLayout>
 
@@ -89,7 +92,7 @@
         android:elevation="@dimen/dp3"
         android:layout_gravity="center"
         android:theme="@style/ProgressBarTheme"
-        android:visibility="visible"
+        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
